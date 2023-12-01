@@ -1,0 +1,26 @@
+.bg-lilac {
+    background-color: var(--clr-accent-lilac);
+}
+
+.bg-blue {
+    background-color: var(--clr-accent-blue);
+}
+
+.bg-pink {
+    background-color: var(--clr-accent-pink);
+}
+
+.bg-yellow {
+    background-color: var(--clr-accent-yellow);
+}
+
+.all-caps {
+    text-transform: uppercase;
+}
+
+.fw-bold { font-weight: var(--fw-bold); }
+
+.fw-semi-bold { font-weight: var(--fw-semi-bold); }
+
+.fw-regular { font-weight: var(--fw-regular); }
+
