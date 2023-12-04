@@ -172,3 +172,20 @@ p {
 
 .fw-regular { font-weight: var(--fw-regular); }
 
+
+.spacing-S {
+    padding-block: var(--spacing-XS);
+}
+
+.spacing-M {
+    padding-block: var(--spacing-S);
+}
+
+.spacing-L {
+    padding-block: var(--spacing-M);
+}
+
+.spacing-P {
+    padding-block: var(--spacing-S);
+}
+
