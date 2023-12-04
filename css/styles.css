@@ -172,6 +172,15 @@ p {
 
 .fw-regular { font-weight: var(--fw-regular); }
 
+.nav-link {
+    font-size: var(--fs-S);
+    font-weight: var(--fw-regular);
+    color: var(--clr-black-900);
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+/* Spacing */
 
 .spacing-S {
     padding-block: var(--spacing-XS);
