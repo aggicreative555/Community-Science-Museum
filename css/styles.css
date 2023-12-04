@@ -51,6 +51,51 @@
     --spacing-XL: clamp(3rem, 10vw + 1rem, 5rem);
     --spacing-XXL: clamp(0rem, 10vw + 1rem, 0rem); */
 
+
+}
+
+/* Box sizing */
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Remove default margin */
+
+* {
+    margin:0;
+    padding:0;
+    font: inherit;
+}
+
+/* Remove list styles */
+ul,
+ol {
+    list-style: none;
+}
+
+/* Clickable element */
+
+button {
+    cursor: pointer;
+}
+
+/* Avoid double scroll bars */
+html,
+body {
+    height: 100%;
+}
+
+/* Make images easier to work with  */
+img,
+picture,
+svg {
+    max-width: 100%;
+    display: block;
+}
+
 .bg-lilac {
     background-color: var(--clr-accent-lilac);
 }
