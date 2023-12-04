@@ -96,6 +96,21 @@ svg {
     display: block;
 }
 
+/* Utility classes */
+
+.container {
+    --max-width: 1200px;
+    --inline-margins: 2rem;
+
+    width: min(var(--max-width), 100% - var(--inline-margins));
+    margin-inline: auto;
+}
+
+/* bg */
+.bg-black {
+    background-color: var(--clr-black-900);
+}
+
 .bg-lilac {
     background-color: var(--clr-accent-lilac);
 }
