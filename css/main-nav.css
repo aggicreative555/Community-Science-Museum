@@ -1,0 +1,43 @@
+
+header {
+    position: fixed;
+    background: var(--clr-white-900);
+    padding-top: 1rem;
+    width: 100%;
+    z-index: 999;
+}
+
+
+.nav-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav.main-nav {
+    display:flex;
+    flex-direction: row;
+    gap: 1rem;
+    align-items: flex-start;
+    background: var(--clr-white-900);
+    padding: 1rem;
+    width: 100%;
+}
+
+.main-nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.logo {
+    object-fit: cover;
+    aspect-ratio: 1;
+}
+
