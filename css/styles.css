@@ -31,17 +31,16 @@
     --fw-semi-bold: 600;
     --fw-bold: 700;
 
-    --fs-XL: clamp(3rem, 10vw + 1rem, 8rem);
+    --fs-XL: clamp(2.25rem, 10vw + 1rem, 8rem);
     --fs-L: clamp(2.25rem, 5vw + 1rem, 4rem);
     --fs-M: clamp(1.25rem, 5vw + 0.25rem, 2.25rem);
     --fs-S: clamp(1rem, 3vw + 0.25rem, 1.25rem);
     --fs-XS: clamp(0.75rem, 3vw + 0.25rem, 1rem);
 
-    --fs-button: 1.25rem
+    --fs-button: 1.25rem;
     /* Box shadow */
 
     --box-shadow-card: box-shadow: 6px 6px 0px 0px, #BBC5F;
-}    
 
 .bg-lilac {
     background-color: var(--clr-accent-lilac);
