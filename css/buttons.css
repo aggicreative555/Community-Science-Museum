@@ -1,8 +1,41 @@
 .link-L {
+    display: flex inline-block;
+    padding: 1rem;
+    flex-direction: row;
+    gap: 1rem;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: flex-start; 
 
+    font-size: var(--fs-button);
+    font-weight: var(--fw-semi-bold);
+    text-transform: uppercase; 
+
+    text-decoration: underline;
 }
 
 .link-S {
 
 }
 
+button {
+    cursor: pointer;
+    display: flex;
+    min-width: 15.5rem;
+    min-height: 5rem;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem; 
+    margin: 1rem;
+    border-radius: 0.5rem;
+    border: 0;
+    background-color: var(--clr-black-900);
+    color: var(--clr-white-900);
+    font-size: var(--fs-button);
+    font-weight: var(----fw-semi-bold);
+}
+
+.icon {
+    padding: 0.5rem;
+}
