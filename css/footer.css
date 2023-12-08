@@ -2,6 +2,8 @@
 
 footer {
     color: var(--clr-white-900);
+    padding: 3.25rem 0;
+
     
     & a {
         color: var(--clr-white-900);
@@ -21,7 +23,27 @@ footer {
     width: 100%;
 }
 
+.nav-link-white {
+    font-size: var(--fs-S);
+    font-weight: var(--fw-regular);
+    color: var(--clr-white-900);
+    text-transform: uppercase;
+    text-decoration: none;
+    padding:1rem 0;
+    display: flex;
+}
 
+.nav-title {
+    padding: 1rem 0;
+    display: inline;
+}
+
+.footer__nav-links {
+    padding:1rem 0;
+}
+
+
+@media (min-width: 60em) {
     .footer-columns {
         display: flex;
         flex-direction: row;
