@@ -103,23 +103,24 @@ body {
     background-color: var(--clr-white-900);
 }
 
-h1 {
+.heading-XL {
     font-size: var(--fs-XL);
     font-weight: var(--fw-bold);
     overflow-wrap: break-word;
+    text-transform: uppercase;
 }
 
-h2 {
+.heading-L {
     font-size: var(--fs-L);
     font-weight: var(--fw-bold);
 }
 
-h3 {
+.heading-M {
     font-size: var(--fs-L);
     font-weight: var(--fw-semi-bold);
 }
 
-h4 {
+.heading-S {
     font-size: var(--fs-M);
     font-weight: var(--fw-regular);
 }
