@@ -1,0 +1,10 @@
+/* Visit us card */
+
+--text-padding: 1rem;
+
+.visit-us__card {
+    border: 1px red;
+    padding: var(--text-padding)
+}
+
+.half-bleed
