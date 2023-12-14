@@ -107,8 +107,21 @@ svg {
     display: block;
 }
 
+/* Remove built-in type */
+input,
+button,
+textarea,
+select {
+    font: inherit;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     overflow-wrap: break-word;
 }
 
@@ -158,6 +171,42 @@ svg {
 
 .fw-regular { font-weight: var(--fw-regular); }
 
+
+body {
+    font-family: var(--ff-primary);
+    color: var(--clr-black-900);
+    background-color: var(--clr-white-900);
+}
+
+.heading-XL {
+    font-size: var(--fs-XL);
+    font-weight: var(--fw-bold);
+    text-transform: uppercase;
+}
+
+.heading-L {
+    font-size: var(--fs-L);
+    font-weight: var(--fw-bold);
+}
+
+.heading-M {
+    font-size: var(--fs-L);
+    font-weight: var(--fw-semi-bold);
+    
+}
+
+.heading-S {
+    font-size: var(--fs-M);
+    font-weight: var(--fw-regular);
+}
+
+p, .p {
+    font-size: var(--fs-S);
+    font-weight: var(--fw-regular);
+    line-height: 140%;
+}
+
+
 .caption { 
     font-size: var(--fs-XS); 
     font-weight: var(--fw-regular)}
@@ -166,7 +215,25 @@ svg {
     text-transform: uppercase;
 }
 
+.centered {
+    text-align: center;
 }
+
+
+/* Icons  */
+
+span.size-24 {
+    font-size: 24px;
+    font-variation-settings: 'OPSZ' 24;
+    padding: 0.5rem;
+}
+
+span.size-40 {
+font-size: 40px;
+font-variation-settings: 'OPSZ' 40;
+padding: 0.5rem;
+}
+
 
 /* Spacing */
 
@@ -185,4 +252,19 @@ svg {
 .spacing-P {
     padding-block: var(--spacing-S);
 }
+
+/* Box Shadow */
+
+.shadow-XS {
+    box-shadow: 0px 4px 0px 0px var(--clr-accent-lilac-200);
+}
+
+.shadow-S {
+    box-shadow: 6px 6px 0px 0px var(--clr-accent-lilac-200);
+}
+
+/* Img */
+
+
+
 
