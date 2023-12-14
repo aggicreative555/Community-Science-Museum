@@ -67,6 +67,8 @@
     --card-img-energetica: url(../assets/img/img-provided/samuel-zeller-158996.jpg);
     --card-img-eco: url(../assets/img/img-provided/skeleton-414543_1920.jpg);
 }
+  
+/* CSS RESET */
 
 /* Box sizing */
 
@@ -109,6 +111,7 @@ svg {
     overflow-wrap: break-word;
 }
 
+/* CSS RESET */
 
 
 /* UTILITY CLASSES */
@@ -120,6 +123,8 @@ svg {
     width: min(var(--max-width), 100% - var(--inline-margins));
     margin-inline: auto;
 }
+
+/* Background */
 
 .bg-black {
     background-color: var(--clr-black-900);
@@ -144,6 +149,7 @@ svg {
     background-color: var(--clr-accent-yellow);
 }
 
+/* Fonts */
 
 .fw-bold { font-weight: var(--fw-bold); }
 
