@@ -59,7 +59,7 @@ span.size-24 {
     font-variation-settings: 'OPSZ' 40;
   }
 
-@media (max-width:55em) {
+@media (max-width:77em) {
     .nav-toggle {
         display: block;
     }
