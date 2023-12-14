@@ -76,6 +76,59 @@
     margin: 1rem 0 2rem 0;
 }
 
+/* Product Card Image Utility Classes */
+    /* Explore */
+
+
+.card-img[data-category="kids"] {
+background-image: var(--card-img-kids);
+}
+
+.card-img[data-category="teachers"] {
+background-image: var(--card-img-teachers);
+}
+
+.card-img[data-category="researchers"] {
+background-image: var(--card-img-researchers);
+}
+
+/* Spaces variables */
+
+.card-img[data-category="space-cosmology"] {
+background-image: var(--card-img-cosmology);
+}
+
+.card-img[data-category="space-evolution"] {
+background-image: var(--card-img-evolution);
+}
+
+.card-img[data-category="space-biomed"] {
+background-image: var(--card-img-biomed);
+}
+
+.card-img[data-category="space-robotics"] {
+    background-image: var(--card-img-robotics);
+}
+ 
+/* Exhibitons */
+
+.card-img[data-category="professor"] {
+    background-image: var(--card-img-professor);
+}
+
+.card-img[data-category="night"] {
+    background-image: var(--card-img-night);
+}
+
+.card-img[data-category="energetica"] {
+    background-image: var(--card-img-energetica);
+}
+
+.card-img[data-category="eco"] {
+    background-image: var(--card-img-eco); 
+}
+
+
 }
 
 .half-bleed

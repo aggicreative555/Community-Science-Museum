@@ -52,6 +52,23 @@
     --spacing-XXL: clamp(0rem, 10vw + 1rem, 0rem); */
 
 
+    /* Images */
+
+    --card-img-kids: url(../assets/img/img-provided/billetto-editorial-334686.jpg);
+    --card-img-teachers: url(../assets/img/img-provided/luke-ellis-craven-400722.jpg);
+    --card-img-researchers: url(../assets/img/img-provided/andrew-ruiz-348421.jpg);
+
+
+    --card-img-cosmology: url(../assets/img/img-provided/);
+    --card-img-evolution: url(../assets/img/img-provided/);
+    --card-img-biomed: url(../assets/img/img-provided/);
+    --card-img-robotics: url(../assets/img/img-provided/);
+
+
+    --card-img-professor: url(../assets/img/img-provided/scientific-2040795_1280.jpg);
+    --card-img-night: url(../assets/img/img-provided/celso-405219.jpg);
+    --card-img-energetica: url(../assets/img/img-provided/samuel-zeller-158996.jpg);
+    --card-img-eco: url(../assets/img/img-provided/skeleton-414543_1920.jpg);
 }
 
 /* Box sizing */
