@@ -12,6 +12,7 @@ header {
 
 .nav-wrapper {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -50,6 +51,14 @@ header {
     padding: 1rem;
 }
 
+.checkbox {
+    display: none;
+}
+
+#close-icon {
+    display:none;
+}
+
 
 @media (max-width:77em) {
     .nav-toggle {
@@ -66,20 +75,38 @@ header {
     .nav-left {
         position: absolute;
         justify-content: flex-start;
+        align-items: center;
         flex-direction: column;
-        top: 8rem;
-        left:0;
+        top: 100%;
+        height:0;
+        left: 0;
         width: 100%;
-        flex-wrap: wrap;
         background: var(--clr-white-900);
-        z-index: 999;
+        overflow: hidden;
+        gap: 5rem;
+
+        transition: 0.7s ease;
+    }
+
+    #nav-toggle:checked~.nav-left {
+        height: 100vh;
+        padding: 5rem;
     }
 
     .main-nav ul {
         display: flex;
         text-align: center;
         flex-direction: column;
-        gap: 2rem;
+        gap: 5rem;
     }
+
+    .checkbox:checked~.nav-toggle #menu-icon {
+        display:none;
+    }
+
+    .checkbox:checked~.nav-toggle #close-icon {
+        display:block;
+    }
+    
 }
 
