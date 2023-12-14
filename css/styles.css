@@ -268,3 +268,43 @@ padding: 0.5rem;
 
 
 
+/* Image */
+
+.img__container-XL img {
+    width: 100%;
+    max-height:43rem;
+    object-fit: cover;
+    overflow: hidden;
+    aspect-ratio: auto ;
+
+    border: 1.5rem solid var(--clr-white-900);
+}
+
+/* Home Page */
+
+.exhibitons-home__title {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.hero {
+    background-color: var(--clr-accent-lilac);
+    text-align: center; 
+    margin-top: 5rem;
+}
+
+.hero__content {
+    padding:0 1.5rem 1.5rem 1.5rem;
+}
+
+
+.hero h1, h2 {
+    padding: var(--spacing-S) 0;
+}
+
+.hero p {
+    padding: 0.5rem;
+}
+
