@@ -1,0 +1,35 @@
+
+.details-menu__container-bot {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: var(--spacing-M);
+    flex-wrap: wrap;
+}
+
+.details-menu__content {
+    padding:0 1rem 1rem 1rem;
+    margin:0 0 1rem 0;
+}
+
+.details-menu__title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;  
+    flex-direction: row;
+    width: 100%;
+    cursor: pointer;
+}
+
+details::marker {
+    display: none;
+}
+
+.details-menu__description {
+    padding:1rem 2rem 1rem 0;
+}
+
+.visit-us{
+    margin-bottom: 5rem;
+}
+
+  
