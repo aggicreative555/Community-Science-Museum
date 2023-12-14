@@ -57,8 +57,21 @@ button {
     border: 0;
     background-color: var(--clr-black-900);
     color: var(--clr-white-900);
-    font-size: var(--fs-button);
-    font-weight: var(----fw-semi-bold);
+
+
+    &.btn-primary {
+        font-family: var( --ff-primary);
+        font-size: var(--fs-button);
+        font-weight: var(--fw-semi-bold);
+    }
+}
+
+.btn-container {
+    width: 100%;
+}
+
+.btn-long {
+    width: 100%;
 }
 
 .icon {
