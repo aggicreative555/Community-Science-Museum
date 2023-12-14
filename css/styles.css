@@ -96,6 +96,7 @@ ol {
 html,
 body {
     height: 100%;
+    background-color: var(--clr-background-global);
 }
 
 /* Make images easier to work with  */
