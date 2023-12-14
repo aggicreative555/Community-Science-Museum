@@ -10,9 +10,11 @@
     /* Colors */
 
     --clr-black-900:rgba(18, 20, 23, 1);
+    --clr-black-shadow:rgba(18, 20, 23, );
     --clr-black-400:rgba(89, 98, 117, 1);
     --clr-black-200:rgba(200, 203, 209, 1);
     --clr-white-900:rgba(254, 254, 254, 1);
+    --clr-background-global:rgba(240, 242, 252, 1);
 
     --clr-accent-lilac:rgba(119, 139, 235, 1);
     --clr-accent-lilac-200:rgba(187, 197, 245, 1);
