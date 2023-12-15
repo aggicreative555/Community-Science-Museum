@@ -25,11 +25,39 @@ details::marker {
 }
 
 .details-menu__description {
-    padding:1rem 2rem 1rem 0;
+    padding: 2rem 2rem 0 1rem ;
+}
+
+.details-flex {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
 
 .visit-us{
     margin-bottom: 5rem;
 }
 
-  
+
+ul#bullet-list {
+    list-style:disc;
+}
+
+.inline-block {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.details-menu__list {
+    padding: 1rem;
+}
+
+.info__container {
+    padding-bottom: 5rem;
+}
+
+.info__container-section {
+    padding: 2rem 1rem;
+}
