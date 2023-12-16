@@ -172,6 +172,15 @@ background-image: var(--card-img-biomed);
     gap: 1rem;
 }
 
+.product-card__content .truncate {
+    -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+
+}
+
 .product-card__title {
     margin-bottom: 0.5rem;
 }
