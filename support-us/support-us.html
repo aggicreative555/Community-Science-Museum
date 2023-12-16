@@ -6,45 +6,173 @@
     <title> COSM | Support Us </title>
     <meta name="description" content="Donations are very welcome and are an important way we keep this museum open and accessible to the whole community.You can also support us by donating items of interest to the museum’s collections."/>
 
+<!-- CSS -->
+<link rel="stylesheet" href="/css/styles.css">
+<!-- CSS -->
+
 <!-- FAVICON -->
-    <link rel="icon" href="/assets/favicon/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" href="/assets/favicon/favicon.ico" type="image/svg+xml">
-    <link rel="apple-touch-icon" href="/assets/favicon/apple-touch-icon.png"><!-- 180×180 -->
-    <link rel="manifest" href="/assets/favicon/site.webmanifest">
+    <link rel="icon" href="../assets/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" href="../assets/favicon/favicon.ico" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="../assets/favicon/apple-touch-icon.png"><!-- 180×180 -->
+    <link rel="manifest" href="../assets/favicon/site.webmanifest">
 <!-- FAVICON -->
+
+<!-- FONT -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+<!-- FONT -->
+
+<!-- ICONS -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"/>
+<!-- ICONS -->
+
 
 </head>
 <body>
-    <header>
-
+    <header class="primary-header | shadow-XS">
+        <div class="container full-bleed">
+            <div class="nav-wrapper">
+                <a href="#" class="logo"><img src="../assets/logo/cosm-logo.svg" alt="COSM"></a>
+                <input type="checkbox" class="checkbox" id="nav-toggle">
+                <label for="nav-toggle" id="nav-toggle" class="nav-toggle" aria-controls="primary-navigation">
+                    <span class="material-symbols-outlined size-40" id="menu-icon">menu</span>
+                    <span class="material-symbols-outlined size-40" id="close-icon">close</span>
+                </label>
+                <div class="nav-left">
+                    <nav class="main-nav">
+                        <ul role="list" class="nav-list" id="primary-navigation">
+                            <li><a href="#" class="nav-link" style="--i:1;">Exhibitons</a></li>
+                            <li><a href="#" class="nav-link" style="--i:2;">About Us</a></li>
+                            <li><a href="#" class="nav-link" style="--i:3;">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                    <button class="btn-primary">Support Us
+                        <span class="material-symbols-outlined">arrow_forward</span>
+                    </button>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main>
-        <section class="hero-support">
-            <div class="hero-support__img">
+        <section class="hero | spacing-M bg-yellow">
+            <div class="hero | container">
+                <div class="hero img__container-XL | spacing-S">
+                    <img src="../assets/img/img-provided/heart-2607178_1920.jpg" alt="
+                    Anatomical heart figure in focus">
+                </div>
+                <h1 class="heading-XL all-caps spacing-S">Support Cosm</h1>
+                <div class="hero__content">
+                    <div>
+                        <p>There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the whole community.</p>
+                        <p>You can also support us by donating items of interest to the museum’s collections. If you have some item or collection that you think others would enjoy, please let us know by contacting our Collections Department and they will be able to assist you.</p>
+                    </div>
+                </div>
+                <div class="donation | container">
+                    <input>
+                    <button class="btn-primary all-caps"></button>
 
-            </div>
-            <div class="hero-support__title">
-                <h1 class="heading-XL">Support Cosm</h1>
-                <p>There are various ways you can support the museum. Donations are very welcome and are an important way we keep this museum open and accessible to the whole community.</p>
-                <p>You can also support us by donating items of interest to the museum’s collections. If you have some item or collection that you think others would enjoy, please let us know by contacting our Collections Department and they will be able to assist you.</p>
-            </div>
-            <div class="hero-support__donation">
+                </div>
             </div>
         </section>
-        <section class="cards-support">
-            <div class="card">
+        <section class=" exhb | product-grid | spacing-M">
+            <div class="product-grid container">                
+                <div class="product-card__container">
+                    <div class="product-card | shadow-S">
+                        <div class="product-card__category">
+                            <p class="heading-S all-caps txt-color-accent">Volunteer</p>
+                        </div>
+                        <div class="card-img" data-category="volunteer"></div>
+                        <div class="product-card__content">
+                            <p class="truncate txt-color-grey">A number of people volunteer their time and effort to keep the displays in good order and ready for visitors to come and enjoy. Volunteering has its perks including getting to see behind the scenes of a working museum, access to staff-only lectures, and a monthly lunch where all staff and volunteers come together to discuss ideas for future exhibits and strategies for the museum.<span>You can help volunteer in a number of different spheres. Please contact us if you’d like to find out more about how you can get involved.</span></p>
+                            <a href="#" class="link-S flex all-caps">Go to page
+                                <span class="material-symbols-outlined">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
 
-            </div>
-            <div class="card">
-
+                    <div class="product-card | shadow-S">
+                        <div class="product-card__category">
+                            <p class="heading-S all-caps txt-color-accent">Internship</p>
+                        </div>
+                        <div class="card-img" data-category="internship"></div>
+                        <div class="product-card__content">
+                            <p class="truncate txt-color-grey">Are you interested in working in a museum? Do you enjoy the fun and excitement of sharing the wonders of nature with people? Well you could be just the right person to enjoy an internship at the museum.<span>You’ll be learning from a number of different academics and people who are passionate about science and sharing it with the wider community.</span></p>
+                            <a href="#" class="link-S flex all-caps">Go to page
+                                <span class="material-symbols-outlined">arrow_forward</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
-
     </main>
        
-    <footer>
-
+    <footer class="footer bg-black">
+        <div class="footer container">
+            <div class="footer footer-columns">
+                <div class="footer footer__container-left">
+                    <div class="footer footer__nav-links">
+                        <h2 class="all-caps nav-title heading-M">Follow Us</h2>
+                        <ul role="list" aria-label="Social links">
+                            <li class="icon"><img src="../assets/so-me_icons/icon_fb.svg" alt="facebook"><a href="#"></a></li>
+                            <li class="icon"><img src="../assets/so-me_icons/icon_insta.svg" alt="instagram"><a href="#"></a></li>
+                            <li class="icon"><img src="../assets/so-me_icons/icon_twitter.svg" alt="twitter"><a href="#"></a></li>
+                            <li class="icon"><img src="../assets/so-me_icons/icon_youtube.svg" alt="youtube"><a href="#"></a></li>
+                        </ul>
+                    </div>
+                    <nav class="footer footer__nav-columns">
+                        <div class="footer footer__nav-links">
+                            <h2 class="all-caps nav-title heading-M">Your Visit</h2>
+                            <ul aria-label="Page links" role="list">
+                                <li><a href="#" class="nav-link-white">Exhibitions</a></li>
+                                <li><a href="#" class="nav-link-white">Directions</a></li>
+                                <li><a href="#" class="nav-link-white">Calendar</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer footer__nav-links">
+                            <h2 class="footer all-caps nav-title heading-M">Cosm</h2>
+                            <ul aria-label="Links to pages" role="list">
+                                <li><a href="#" class="nav-link-white">About Us</a></li>
+                                <li><a href="#" class="nav-link-white">Internship</a></li>
+                                <li><a href="#" class="nav-link-white">Volunteer</a></li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                <div class="footer footer__container-right">
+                    <div>
+                        <ul class="footer footer__footer-links">
+                            <li>
+                                <a href="#" class="link-L">Support Us
+                                    <span class="material-symbols-outlined">
+                                        arrow_right_alt
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" class="link-L">Book a Visit
+                                    <span class="material-symbols-outlined">
+                                        arrow_right_alt
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <a href="#"><img src="../assets/logo/cosm-logo-white.svg" alt="COSM" id="color-white"></a>
+                </div>
+            </div>
+            <div class="footer footer__container-bottom-left">
+                <ul aria-label="Links to documents" role="list">
+                    <li><a href="#" class="link-XS">Privacy Policy</a></li>
+                    <li><a href="#" class="link-XS">Terms and Conditons</a></li>
+                </ul>
+            </div>
+            <div class="footer footer__copyright">
+                <p class="caption">Copyright 2023. All Rights Reserved.</p>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
