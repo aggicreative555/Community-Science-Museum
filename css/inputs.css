@@ -1,0 +1,43 @@
+/* Support Us */
+.input__container {
+    padding-left: 1rem;
+    background-color: var(--clr-white-900);
+    border: 0.18rem solid var(--clr-accent-lilac);
+    border-radius: 0.5rem;
+
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+    width:100%;
+}
+
+.donation {
+    margin: 5rem 0;
+}
+
+.flex-1 {
+    flex:2;
+}
+
+.flex-2 {
+    flex:1;
+}
+
+.input-hint {
+    text-align: left;
+}
+
+.input__container input {
+    border: none;
+    padding: 1rem 0;
+    width: auto;
+}
+
+.donation__container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: flex-start;
+    width: 100%;
+}
+
