@@ -70,9 +70,22 @@
                     </div>
                 </div>
                 <div class="donation | container">
-                    <input>
-                    <button class="btn-primary all-caps"></button>
-
+                    <div class="donation__container">
+                        <div class="flex-1">
+                            <form>
+                                <div class="input__container">
+                                    <span class="material-symbols-outlined">
+                                        paid
+                                    </span>
+                                    <input type="text"  maxlength="6" class="donation-input" placeholder="50 NOK" aria-label="Donation amount">
+                                </div>
+                            </form>
+                            <p class="input-hint caption txt-color-accent">*Minimum amount: 50 NOK</p>
+                        </div> 
+                        <button type="button" class=" flex-2 btn-primary">Support Us
+                            <span class="material-symbols-outlined">arrow_forward</span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </section>
