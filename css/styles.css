@@ -11,12 +11,14 @@
 
     --clr-black-900:rgba(18, 20, 23, 1);
     --clr-black-shadow:rgba(18, 20, 23, );
-    --clr-black-400:rgba(89, 98, 117, 1);
     --clr-black-200:rgba(200, 203, 209, 1);
+    --clr-black-400:rgba(89, 98, 117, 1);
+    --clr-black-700: rgba(74, 82, 98, 1);
     --clr-white-900:rgba(254, 254, 254, 1);
     --clr-background-global:rgba(240, 242, 252, 1);
 
     --clr-accent-lilac:rgba(119, 139, 235, 1);
+    --clr-lilac-700: rgba(60, 70, 118, 1);
     --clr-accent-lilac-200:rgba(187, 197, 245, 1);
     --clr-accent-pink:rgba(207, 106, 135, 1);
     --clr-accent-yellow:rgba(247, 215, 148, 1);
@@ -47,25 +49,29 @@
     --spacing-XS: clamp(0.25rem, 3vw + 0.25rem, 0.5rem);
     --spacing-S: clamp(1rem, 5vw + 0.25rem, 2rem);
     --spacing-M: clamp(3rem, 10vw + 1rem, 5rem);
+    --spacing-XL: clamp(12rem, 20vw + 1rem, 18.25rem);
 
 
     /* Images */
 
     --card-img-kids: url(../assets/img/img-provided/billetto-editorial-334686.jpg);
-    --card-img-teachers: url(../assets/img/img-provided/luke-ellis-craven-400722.jpg);
+    --card-img-teachers: url(../assets/img/img-provided/icons8-team-FcLyt7lW5wg-unsplash.jpg);
     --card-img-researchers: url(../assets/img/img-provided/andrew-ruiz-348421.jpg);
 
 
-    --card-img-cosmology: url(../assets/img/img-provided/);
-    --card-img-evolution: url(../assets/img/img-provided/);
-    --card-img-biomed: url(../assets/img/img-provided/);
-    --card-img-robotics: url(../assets/img/img-provided/);
+    --card-img-cosmology: url(../assets/img/img-provided/aldebaran-s-qtRF_RxCAo0-unsplash.jpg);
+    --card-img-evolution: url(../assets/img/img-provided/fatih-kilic-1kPJhqTUWo4-unsplash.jpg);
+    --card-img-biomed: url(../assets/img/img-provided/skeleton-414543_1920.jpg);
+    --card-img-robotics: url(../assets/img/img-provided/david-leveque-GpNOhig3LSU-unsplash.jpg);
 
 
     --card-img-professor: url(../assets/img/img-provided/scientific-2040795_1280.jpg);
     --card-img-night: url(../assets/img/img-provided/celso-405219.jpg);
     --card-img-energetica: url(../assets/img/img-provided/samuel-zeller-158996.jpg);
-    --card-img-eco: url(../assets/img/img-provided/skeleton-414543_1920.jpg);
+    --card-img-eco: url(../assets/img/img-provided/lisa-yount-zcZPjDqG-Ao-unsplash.jpg);
+
+    --card-img-volunteer: url(../assets/img/img-provided/exhibition-1863344_1920.jpg);
+    --card-img-internship: url(../assets/img/img-provided/people-219985_1280.jpg);
 }
   
 /* CSS RESET */
