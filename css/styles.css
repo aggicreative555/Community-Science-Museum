@@ -219,6 +219,11 @@ p, .p {
     line-height: 170%;
 }
 
+.p.fw-semi-bold {
+    font-weight: var(--fw-semi-bold);
+    padding: 0;
+  }
+
 
 .caption { 
     font-size: var(--fs-XS); 
@@ -230,6 +235,18 @@ p, .p {
 
 .centered {
     text-align: center;
+}
+
+.margin-bot {
+    margin-bottom: 5rem;
+}
+
+.txt-color-accent {
+    color: var(--clr-lilac-700);
+}
+
+.txt-color-grey {
+    color: var(--clr-black-700);
 }
 
 
