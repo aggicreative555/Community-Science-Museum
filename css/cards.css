@@ -94,19 +94,19 @@ background-image: var(--card-img-researchers);
 
 /* Spaces variables */
 
-.card-img[data-category="space-cosmology"] {
+.card-img[data-category="cosmology"] {
 background-image: var(--card-img-cosmology);
 }
 
-.card-img[data-category="space-evolution"] {
+.card-img[data-category="evolution"] {
 background-image: var(--card-img-evolution);
 }
 
-.card-img[data-category="space-biomed"] {
+.card-img[data-category="biomed"] {
 background-image: var(--card-img-biomed);
 }
 
-.card-img[data-category="space-robotics"] {
+.card-img[data-category="robotics"] {
     background-image: var(--card-img-robotics);
 }
  
