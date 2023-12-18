@@ -312,8 +312,9 @@ padding: 0.5rem;
 
 /* Home Page */
 
-.exhibitons-home__title {
+.product-grid__title {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 1rem;
