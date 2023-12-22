@@ -2,8 +2,9 @@
 .input__container {
     padding-left: 1rem;
     background-color: var(--clr-white-900);
-    border: 0.18rem solid var(--clr-accent-lilac);
+    border: 0.1rem solid var(--clr-accent-lilac-200);
     border-radius: 0.5rem;
+    font-size: var(--fs-S);
 
     display: flex;
     gap: 0.5rem;
@@ -26,6 +27,7 @@
 .input-hint {
     text-align: left;
 }
+
 
 .input__container input {
     border: none;
@@ -53,7 +55,7 @@
 .contact-form__form {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: var(--spacing-S);
 }
 
 .message {
@@ -63,19 +65,36 @@
 
 .contact-form__form {
     margin: 3rem 1rem;
+    width: auto;
 }
 
 .contact-form__form input, textarea {
     max-width: 50rem;
+    min-width: 10rem;
     padding: 1rem;
     margin: 0.5rem 0;
     border: 0.1rem solid var(--clr-accent-lilac-200);
-    box-shadow: ;
     border-radius: 0.5rem;
+
+    color: var(--clr-black-900);
     font-size: var(--fs-S);
+    font-weight: var(--fw-regular);
 }
 
-input::placeholder {
+.form-item {
+    display: flex;
+    flex-direction: column;
+}
+
+input::placeholder,textarea::placeholder {
     color: var(--clr-accent-lilac);
+    font-size: var(--fs-S);
+    font-weight: var(--fw-regular);
+}
+
+textarea {
+    color: var(--clr-black-900) !important;
+    font-size: var(--fs-S) !important;
+    font-weight: var(--fw-regular);
 }
 
