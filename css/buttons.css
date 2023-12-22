@@ -70,14 +70,26 @@ button {
     gap: 0.5rem; 
     border-radius: 0.5rem;
     border: 0.18rem solid var(--clr-black-900);
-    background-color: var(--clr-black-900);
-    color: var(--clr-white-900);
 }
 
-button.btn-primary {
+.btn-primary {
     font-family: var(--ff-primary);
     font-size: var(--fs-button);
     font-weight: var(--fw-semi-bold);
+
+    background-color: var(--clr-black-900);
+    color: var(--clr-white-900);
+
+    transition: 0.2s ease-in-out;
+}
+
+
+
+.btn-primary:hover {
+    box-shadow: 6px 6px 0px 0px var(--clr-accent-lilac);  
+    background-color: var(--clr-white-900);
+    color: var(--clr-black-900);
+    border: 0.18rem solid var(--clr-accent-lilac);
 }
 
 button.btn-secondary {
@@ -88,6 +100,13 @@ button.btn-secondary {
     font-family: var(--ff-primary);
     font-size: var(--fs-button);
     font-weight: var(--fw-semi-bold);
+
+    transition: 0.2s ease-in-out;
+}
+
+.btn-secondary:hover {
+    box-shadow: 6px 6px 0px 0px var(--clr-black-900);  
+    border: 0.18rem solid var(--clr-black-900);   
 }
 
 .btn-container {
@@ -95,9 +114,11 @@ button.btn-secondary {
     padding: 1rem;
 }
 
-button.btn-long {
+.btn-primary.btn-long, .btn-secondary.btn-long {
     width:100%;
 }
+
+/* Buttons */
 
 .icon {
     padding: 0.5rem;
