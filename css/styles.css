@@ -369,6 +369,26 @@ padding: 0.5rem;
     padding: 0.5rem;
 }
 
+/* Privacy Policy and Terms Page */
+
+.hero-document > h1 {
+    text-align: center;
+}
+
+
+.hero-document__description {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    gap: 1rem;
+    margin:2rem 0;
+    overflow-wrap: break-word;
+}
+
 .details-menu__wrapper {
     margin: 1.5rem 2rem;
 }
@@ -395,7 +415,7 @@ padding: 0.5rem;
 }
 
 .hero-exhb {
-    padding: 1.5rem 1.5rem 5rem 1.5rem;
+    padding: 1.5rem 1.5rem 2rem 1.5rem;
 }
 
 .hero-exhb__description {
