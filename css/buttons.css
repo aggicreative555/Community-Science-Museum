@@ -1,14 +1,8 @@
-.link-L {
-    display: flex inline-block;
-    padding: 2rem 0;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: center;
-    align-items: flex-start; 
-
-    font-size: var(--fs-button);
-    font-weight: var(--fw-semi-bold);
-    text-transform: uppercase; 
+/* Link */
+.link-in-text {
+    text-decoration: underline 1px solid var(--clr-white-900);
+    text-underline-offset: .3rem;
+    transition: transform 0.5s ease-in-out;
 }
 
 a {
