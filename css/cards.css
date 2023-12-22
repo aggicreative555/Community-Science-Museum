@@ -165,6 +165,18 @@ background-image: var(--card-img-internship);
 
     border-radius: 0.5rem;
     background-color: var(--clr-white-900);
+    border: 0.3rem solid var(--clr-white-900);
+
+    transition: 0.2s ease-in-out;
+
+    cursor: pointer;
+}
+
+.product-card:hover {
+    box-shadow: 12px 12px 0px 0px var(--clr-accent-lilac);
+    border: 0.18rem solid var(--clr-accent-lilac);
+    background-color: var(--clr-white-900);
+    color: var(--clr-black-900);
 }
 
 /* IMG */
