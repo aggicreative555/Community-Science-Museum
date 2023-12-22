@@ -17,8 +17,9 @@
     --clr-white-900:rgba(254, 254, 254, 1);
     --clr-background-global:rgba(240, 242, 252, 1);
 
-    --clr-accent-lilac:rgba(119, 139, 235, 1);
-    --clr-lilac-700: rgba(60, 70, 118, 1);
+    --clr-accent-lilac:rgba(119, 139, 235, 1);  
+    --clr-lilac-900: rgba(40, 46, 78, 1);
+    --clr-lilac-700-shadow: rgba(60, 70, 118, 0.5);
     --clr-accent-lilac-200:rgba(187, 197, 245, 1);
     --clr-accent-pink:rgba(207, 106, 135, 1);
     --clr-accent-yellow:rgba(247, 215, 148, 1);
@@ -39,7 +40,7 @@
     --fs-L: clamp(2.25rem, 5vw + 1rem, 4rem);
     --fs-M: clamp(1.25rem, 5vw + 0.25rem, 2.25rem);
     --fs-S: clamp(1rem, 3vw + 0.25rem, 1.25rem);
-    --fs-XS: clamp(0.75rem, 3vw + 0.25rem, 1rem);
+    --fs-XS: clamp(0.75rem, 3vw + 0.1rem, 1rem);
 
     --fs-button: 1.25rem;
 
