@@ -21,7 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 1rem;
+    gap: 3rem;
 }
 
 .main-nav ul {
@@ -31,10 +31,8 @@ header {
 
 .logo img {
     object-fit: contain;
-    min-width:135.41px;
-    max-width:100%;
+    width:135.41px;
     height:auto;
-    aspect-ratio: 1/1;
 }
 
 .nav-link, .current-page {
