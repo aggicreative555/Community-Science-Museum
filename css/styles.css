@@ -349,18 +349,20 @@ padding: 0.5rem;
 }
 
 .hero {
-    background-color: var(--clr-accent-lilac);
     text-align: center; 
     margin-top: 5rem;
 }
 
 .hero__content {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
     padding:0 1.5rem 1.5rem 1.5rem;
 }
 
 
-.hero h1, h2 {
-    padding: var(--spacing-S) 0;
+.hero h1,h2 {
+    padding: 1rem 0;
 }
 
 .hero p {
