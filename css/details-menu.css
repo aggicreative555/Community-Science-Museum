@@ -7,8 +7,9 @@
 }
 
 .details-menu__content {
+    width: 100%;
     padding:0 1rem 1rem 1rem;
-    margin:0 0 1rem 0;
+    margin:2rem 0 2rem 0;
 }
 
 .details-menu__title {
@@ -20,12 +21,20 @@
     cursor: pointer;
 }
 
+.details-menu__title h3 {
+    width: 100%;
+    overflow-wrap: break-word;
+}
+
 details::marker {
     display: none;
 }
 
 .details-menu__description {
-    padding: 2rem 2rem 0 1rem ;
+    --spacing-right: clamp(3rem, 3vw + 0.25rem, 5rem);
+
+    padding-top: var(--spacing-S);
+    padding-right:var(--spacing-right);
 }
 
 .details-flex {
