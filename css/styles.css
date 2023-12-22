@@ -208,26 +208,32 @@ body {
     color: var(--clr-black-900);
 }
 
-.heading-XL {
+.font-XL {
     font-size: var(--fs-XL);
     font-weight: var(--fw-bold);
     text-transform: uppercase;
 }
 
-.heading-L {
+.font-L {
     font-size: var(--fs-L);
     font-weight: var(--fw-bold);
 }
 
-.heading-M {
+.font-M {
     font-size: var(--fs-M);
     font-weight: var(--fw-semi-bold);
     
 }
 
-.heading-S {
+.font-S {
     font-size: var(--fs-M);
     font-weight: var(--fw-regular);
+}
+
+.font-XXS { 
+    font-size: var(--fs-XS); 
+    font-weight: var(--fw-regular);
+    font-family: var(--ff-body);
 }
 
 p, .p {
@@ -240,11 +246,6 @@ p, .p {
     font-weight: var(--fw-semi-bold);
     padding: 0;
   }
-
-
-.caption { 
-    font-size: var(--fs-XS); 
-    font-weight: var(--fw-regular)}
 
 .all-caps {
     text-transform: uppercase;
