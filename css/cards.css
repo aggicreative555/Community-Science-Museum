@@ -52,13 +52,6 @@
     }
 }
 
-/* .visit-us__card-img {
-    border: 1px solid;
-    border-radius: 0.5rem;
-    overflow: hidden;
-} */
-
-
 .lilac {
     background-color: var(--clr-accent-lilac);
 }
@@ -68,7 +61,7 @@
 }
 
 
-.item .heading-M {
+.item .font-M {
     display: flex;
     flex-basis: 100%;
     padding: 1rem 0;
@@ -231,18 +224,17 @@ background-image: var(--card-img-internship);
     }
 }
 
-.product-card__h-scroll {
+.product-card__container-wide {
     display: flex;
     align-items: center;
-    overflow-x:auto;
+    justify-content: center;
     gap: 3rem;
-    padding: var(--spacing-M);
     width: 100%;
 }
 
 
 @media (max-width: 77em) {
-    .product-card__h-scroll {
+    .product-card__container-wide {
       flex-direction: column;
     }
 }
