@@ -1,3 +1,9 @@
+/* Global States*/
+.nav-link:focus,
+.summary:focus {
+    outline-offset: .5rem;
+}
+
 /* Link */
 .link-in-text {
     text-decoration: underline 1px solid var(--clr-white-900);
@@ -27,6 +33,7 @@
 
 .flex {
     display: flex;
+    height:auto;
     align-items: center;
     gap: 0.5rem;
     cursor: pointer;
@@ -54,6 +61,8 @@
     transform: translateX(.5rem);
     text-decoration: none;
   }
+
+
 
 /* Link */
 
@@ -85,7 +94,8 @@ button {
 
 
 
-.btn-primary:hover {
+.btn-primary:hover,
+.btn-primary:focus {
     box-shadow: 6px 6px 0px 0px var(--clr-accent-lilac);  
     background-color: var(--clr-white-900);
     color: var(--clr-black-900);
@@ -104,7 +114,8 @@ button.btn-secondary {
     transition: 0.2s ease-in-out;
 }
 
-.btn-secondary:hover {
+.btn-secondary:hover,
+.btn-secondary:focus {
     box-shadow: 6px 6px 0px 0px var(--clr-black-900);  
     border: 0.18rem solid var(--clr-black-900);   
 }
