@@ -51,10 +51,10 @@ header {
 
 .current-page::after {
     content: '';
-    position: absolute;
+    position:absolute;
     left:0;
     top:1.5rem;
-    width: 20px;
+    width: 1rem;
     height:.18rem;
     background-color: var(--clr-accent-lilac);
     border-radius: 0.8rem; 
@@ -141,10 +141,12 @@ header {
         color: var(--clr-black-900);
         text-transform: uppercase;
         text-decoration: none;
+        position: relative;
     }
 
     .current-page::after {
-        top:3rem;
+        position: absolute;
+        top: 2.5rem;
         width: 30%;
 
     }
