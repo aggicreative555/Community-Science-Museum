@@ -142,7 +142,7 @@ p {
 }
 
 main {
-    margin-top: var(--spacing-XL);
+    margin-top: var(--spacing-M);
     display: flex;
     flex-direction: column;
     justify-content: center;
