@@ -246,7 +246,7 @@ background-image: var(--card-img-internship);
 }
 
 
-@media (max-width: 55em) {
+@media (max-width: 80em) {
     .product-card__container-wide {
       flex-direction: column;
     }
