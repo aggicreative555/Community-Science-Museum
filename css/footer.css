@@ -68,7 +68,7 @@ footer {
     transform: scaleX(0);
     transform-origin: left;
 
-    transition: transform 0.3s ease-in-out;    
+    transition: transform .3s ease-in-out;    
 }
 
 
@@ -131,10 +131,16 @@ footer {
     
 }
 
-.social-links img {
+.icon img {
     width:2.5rem;
     height: auto;
     margin:0.5rem;
 
+    transition: transform .3s ease-in-out;
+
+}
+
+.icon :hover {
+    transform: scale(1.5, 1.5);
 }
 
