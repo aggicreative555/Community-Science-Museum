@@ -1,9 +1,9 @@
-@import url(css/footer.css);
-@import url(css/main-nav.css);
-@import url(css/buttons.css);
-@import url(css/cards.css);
-@import url(css/details-menu.css);
-@import url(css/inputs.css);
+@import url(../css/footer.css);
+@import url(../css/main-nav.css);
+@import url(../css/buttons.css);
+@import url(../css/cards.css);
+@import url(../css/details-menu.css);
+@import url(../css/inputs.css);
 
 @font-face {
     font-family: 'Lato';
@@ -143,6 +143,10 @@ p {
 
 main {
     margin-top: var(--spacing-XL);
+}
+
+a {
+    padding: 0;
 }
 
 /* CSS RESET */
@@ -334,6 +338,13 @@ padding: 0.5rem;
 
 .border-white img {
     border: var(--border-img) solid var(--clr-white-900);
+}
+
+.visit-us__card-img img {
+    background: linear-gradient(
+        rgba
+        30%
+    );
 }
 
 
