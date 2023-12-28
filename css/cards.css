@@ -230,25 +230,32 @@ background-image: var(--card-img-internship);
 }
 
 
+
+.product-card__container-wide {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--spacing-M);
+    align-items: center;
+    justify-items: center;
+    margin: var(--spacing-M) 0;
+    margin-inline: 2rem;
+}
+
 @media (min-width: 77em) {
     .product-card__container {
       grid-template-columns: repeat(auto-fill, minmax(33rem, 2fr));
     }
 }
 
-.product-card__container-wide {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    gap: 3rem;
-    width: 100%;
-    height: auto;
+@media (min-width: 77em) {
+    .product-card__container-wide {
+        grid-template-columns: repeat(auto-fill, minmax(33rem, 3fr));
+    }    
+    
 }
 
-
-@media (max-width: 88em) {
+/* @media (max-width: 88em) {
     .product-card__container-wide {
       flex-direction: column;
     }
-}
+} */
