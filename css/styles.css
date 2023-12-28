@@ -1,9 +1,9 @@
-@import url(/css/footer.css);
-@import url(/css/main-nav.css);
-@import url(/css/buttons.css);
-@import url(/css/cards.css);
-@import url(/css/details-menu.css);
-@import url(/css/inputs.css);
+@import url(../css/footer.css);
+@import url(../css/main-nav.css);
+@import url(../css/buttons.css);
+@import url(../css/cards.css);
+@import url(../css/details-menu.css);
+@import url(../css/inputs.css);
 
 @font-face {
     font-family: 'Lato';
