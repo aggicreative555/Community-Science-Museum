@@ -238,10 +238,11 @@ background-image: var(--card-img-internship);
 
 .product-card__container-wide {
     display: flex;
+    flex-direction: row;
     align-items: center;
     justify-content: center;
     gap: 3rem;
-    width: 100%;
+    width: 100vw;
 }
 
 
