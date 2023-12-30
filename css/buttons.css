@@ -22,6 +22,7 @@
     color: var(--clr-black-900);
     overflow-wrap: break-word;
     position: relative;
+    width:100%;
 
     text-decoration: underline .13rem solid var(--clr-black-900);
     text-underline-offset: .3rem;
