@@ -96,5 +96,7 @@ textarea {
     color: var(--clr-black-900) !important;
     font-size: var(--fs-S) !important;
     font-weight: var(--fw-regular);
+    min-width: 10rem;
+    max-height: 20rem;
+    min-height: 10rem;
 }
-
