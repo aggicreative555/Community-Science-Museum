@@ -62,11 +62,12 @@
         <section class="hero | bg-lilac">
             <div class="hero | container">
                 <div class="hero img__container-XL border-white | spacing-S">
-                    <img 
-                    src="./assets/img/img-provided/samuel-zeller-113381.jpg" alt="Person looking up wearing a headset and virtual reality goggles"
-                    srcset="./assets/img/img-provided/samuel-zeller-158996.jpg 595w, 
+                    <img
+                    src="./assets/img/img-provided/samuel-zeller-113381.jpg"
+                    alt="Person looking up wearing a headset and virtual reality goggles"
+                    srcset="./assets/img/img-provided/samuel-zeller-158996.jpg 595w,
                     ./assets/img/img-provided/samuel-zeller-158996.jpg 811w"
-                    sizes="(max-width: 1200px) 100vw, 1200px"
+                    sizes="(max-width: 1200px) 100vw, 595w"
                     >
                 </div>
                 <h2 class="font-XL all-caps spacing-S">Explore Together</h2>
@@ -244,7 +245,11 @@
                                 <span class="material-symbols-outlined">arrow_forward</span>
                             </div>
                             <div class="visit-us__card-img">
-                                <img src="./assets/img/img-provided/scott-webb-102825.jpg" alt="Wide angle photo of colorful museum building">
+                                <img src="./assets/img/img-provided/scott-webb-102825.jpg" 
+                                alt="Wide angle photo of colorful museum building"
+                                srcset="./assets/img/img-provided/scott-webb-102825.jpg 281w"
+                                sizes="(max-width: 1200px) 100vw, 281px"
+                                >
                             </div>
                         </article>
                         
@@ -299,8 +304,13 @@
                         </div>
                     </div>
                     <div class="visit-us img__container-XL border-blue overlay-wrapper | spacing-XS">
-                        <img src="./assets/img/map/bergen-map.jpg" alt="Bird view map of the city of Bergen">    
-                        <div class="overlay"></div>
+                        <picture>
+                            <source media="(max-width: 700px)" srcset="./assets/img/map/bergen-map-mobile.jpg"/>
+                            <img src="./assets/img/map/bergen-map.jpg"
+                            alt="Bird view map of the city of Bergen"
+                            />
+                            <div class="overlay"></div>
+                        </picture>
                     </div>
                 </div>
             </div>
