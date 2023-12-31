@@ -176,6 +176,7 @@ background-image: var(--card-img-internship);
 
 .product-card:hover {
     box-shadow: 12px 12px 0px 0px var(--clr-accent-lilac);
+    outline-offset: 3px;
     border: 0.18rem solid var(--clr-accent-lilac);
     background-color: var(--clr-white-900);
     color: var(--clr-black-900);
@@ -239,8 +240,9 @@ background-image: var(--card-img-internship);
     gap: var(--spacing-M);
     align-items: center;
     justify-items: center;
-    margin: var(--spacing-M) 0;
+    margin-block: var(--spacing-M);
     margin-inline: 2rem;
+    width: auto;
 }
 
 @media (min-width: 77em) {
