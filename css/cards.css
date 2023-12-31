@@ -32,8 +32,6 @@
     align-items: stretch;
     padding: var(--spacing-Card);
     height: 100%;
-
-
 }
 
 .visit-us__card h2 {
@@ -240,7 +238,7 @@ background-image: var(--card-img-internship);
     gap: var(--spacing-M);
     align-items: center;
     justify-items: center;
-    margin-block: var(--spacing-M);
+    margin-top: 5rem;
     margin-inline: 2rem;
     width: auto;
 }
