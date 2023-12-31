@@ -246,19 +246,9 @@ background-image: var(--card-img-internship);
 @media (min-width: 77em) {
     .product-card__container {
       grid-template-columns: repeat(auto-fill, minmax(33rem, 2fr));
-      justify-items: center;
     }
-}
 
-@media (min-width: 77em) {
     .product-card__container-wide {
         grid-template-columns: repeat(auto-fill, minmax(33rem, 3fr));
     }    
-    
 }
-
-/* @media (max-width: 88em) {
-    .product-card__container-wide {
-      flex-direction: column;
-    }
-} */
