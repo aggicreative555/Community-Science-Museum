@@ -145,7 +145,7 @@ p {
 }
 
 main {
-    margin-top: var(--spacing-M);
+    margin-top: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -319,9 +319,6 @@ padding: 0.5rem;
     padding-block: var(--spacing-M);
 }
 
-.spacing-P {
-    padding-block: var(--spacing-S);
-}
 
 /* Box Shadow */
 
@@ -374,8 +371,9 @@ padding: 0.5rem;
 }
 
 .hero {
+    position: relative;
     text-align: center; 
-    margin-top: 5rem;
+    margin-top: 8rem;
 }
 
 .hero__content {
@@ -484,6 +482,6 @@ main.contact-us {
     flex-direction: column;
     gap: var(--spacing-S);
 }
-          
+    
 
 
