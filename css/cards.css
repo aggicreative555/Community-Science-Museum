@@ -33,23 +33,25 @@
     padding: var(--spacing-Card);
     height: 100%;
 
-    & h2 {
-        padding: 1rem 0;
-        flex-shrink: 0;
-    }
 
-    & a {
-        padding:0 0.5rem 1rem 0;
-    }
+}
 
-    & img {
-        max-height: 204px;
-        width: 100%;
-        object-fit: cover;
-        margin: 1rem 0;
-        aspect-ratio: auto;
-        border-radius: 0.5rem;
-    }
+.visit-us__card h2 {
+    padding: 1rem 0;
+    flex-shrink: 0;
+}
+
+.visit-us__card a {
+    padding:0 0.5rem 1rem 0;
+}
+
+.visit-us__card img {
+    max-height: 204px;
+    width: 100%;
+    object-fit: cover;
+    margin: 1rem 0;
+    aspect-ratio: auto;
+    border-radius: 0.5rem;
 }
 
 .lilac {

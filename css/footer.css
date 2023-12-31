@@ -4,11 +4,9 @@ footer {
     color: var(--clr-white-900);
     padding: 3.25rem 0;
 
-    
-    & a {
-        color: var(--clr-white-900);
-        text-decoration: none;
-    }     
+footer a {
+    color: var(--clr-white-900);
+    text-decoration: none;
 }
 
 .footer__container-bottom-left {
@@ -119,9 +117,8 @@ footer {
         gap: 1rem;
         padding-bottom: 3rem;
 
-        & .link-S {
-            padding-left: 1.5rem;
-        }
+    .footer__nav-columns.right .link-S {
+        padding-left: 1.5rem;
     }
 
     .footer__nav-links {
