@@ -32,8 +32,8 @@ header {
 
 .logo img {
     object-fit: contain;
-    width: 135px;
-    height: auto;
+    width: 8.5rem;
+    max-height: 8.5rem;
 }
 
 .nav-link, .current-page {

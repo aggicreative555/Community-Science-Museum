@@ -135,8 +135,8 @@ footer a {
 }
 
 .icon img {
-    width:2.5rem;
-    height: auto;
+    min-width:2.5rem;
+    max-height: 4rem;
     margin:0.5rem;
 
     transition: transform .3s ease-in-out;
