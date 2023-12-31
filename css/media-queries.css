@@ -1,0 +1,133 @@
+
+/* VIEWPORT BIGGER THAN 77EM */
+
+@media (min-width: 77em) {
+    .product-card__container {
+      grid-template-columns: repeat(auto-fill, minmax(33rem, 2fr));
+    }
+
+    .product-card__container-wide {
+        grid-template-columns: repeat(auto-fill, minmax(33rem, 3fr));
+    }
+
+    .center-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+}
+
+/* VIEWPORT SMALLER THAN 77EM */
+
+@media (max-width: 55em) {
+
+    .visit-home__container-top {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* NAV */
+
+    .footer__container-left {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 3rem;
+        width: 100%;
+    }
+
+    .footer__container-bottom-left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        padding: 1rem 0;
+    }
+
+    .footer__nav-columns.right {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1rem;
+        padding-bottom: 3rem;
+    }
+
+    .footer__nav-columns.right .link-S {
+        padding-left: 1.5rem;
+    }
+
+    .footer__nav-links {
+        padding-left: 1rem;
+
+    }
+    
+}
+
+@media (max-width:77em) {
+    .nav-toggle {
+        display: block;
+    }
+
+    .nav-wrapper {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .nav-left {
+        position: absolute;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        top: 100%;
+        height:0;
+        left: 0;
+        width: 100%;
+        background: var(--clr-white-900);
+        overflow: hidden;
+        gap: 5rem;
+
+        transition: 0.7s ease;
+
+    }
+
+    #nav-toggle:checked~.nav-left {
+        height: 100vh;
+        padding: 5rem;
+    }
+
+    .main-nav ul {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        gap: 5rem;
+    }
+
+    .nav-link, .current-page {
+        font-size: var(--fs-M);
+        font-weight: var(--fw-semi-bold);
+        color: var(--clr-black-900);
+        text-transform: uppercase;
+        text-decoration: none;
+        position: relative;
+    }
+
+    .current-page::after {
+        position: absolute;
+        top: 2.5rem;
+        width: 30%;
+
+    }
+
+
+    .checkbox:checked~.nav-toggle #menu-icon {
+        display:none;
+    }
+
+    .checkbox:checked~.nav-toggle #close-icon {
+        display:block;
+    }
+    
+}
+
