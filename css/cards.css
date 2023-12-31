@@ -238,7 +238,7 @@ background-image: var(--card-img-internship);
     gap: var(--spacing-M);
     align-items: center;
     justify-items: center;
-    margin-top: 5rem;
+    margin-top: var(--spacing-M);
     margin-inline: 2rem;
     width: auto;
 }
